@@ -40,4 +40,4 @@ C’est une partie avec les bases du CRUD (Create, Read, Update, Delete).
 
 1. Cloner le projet :
    ```bash
-   git clone https://github.com/ton-pseudo/ton-projet.git
+   https://github.com/Janishmn/Projet_web.git
