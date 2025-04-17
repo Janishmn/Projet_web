@@ -1,6 +1,6 @@
 let monImage = document.querySelectorAll('img.lightbox');
 
-console.log("Images lightbox trouvées :", monImage.length);
+console.log("Images lightbox trouvées :");
 
 for(let i = 0; i < monImage.length; i++) {
     monImage[i].addEventListener('click', function() {
@@ -14,8 +14,8 @@ for(let i = 0; i < monImage.length; i++) {
         image.setAttribute('src', source);
 
         let close = document.createElement('img');
-        close.setAttribute('src','../image/croix.svg');
-        close.setAttribute('id', 'close');
+        close.setAttribute('src','../image/croix.png');
+        close.setAttribute('id', 'croix');
 
         div.appendChild(close);
         div.appendChild(image);
