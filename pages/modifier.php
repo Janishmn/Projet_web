@@ -10,7 +10,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])):
  
     <form action="maj.php" method="post">
         <input type="text" name="lastname" value="<?= $rep["nom"]?>"><br>
-        <input type="text" name="firstname" value="<?= $rep["prenom"]?>"><br>
+        <input type="password" name="password" value="<?= $rep["mot_de_passe"]?>"><br>
         <input type="email" name="email" value="<?= $rep["email"]?>"><br>
         <input type="hidden" name="id" value="<?= $rep['id']?>"><br>
         <input type="submit" value="modifier">
