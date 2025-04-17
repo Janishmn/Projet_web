@@ -18,6 +18,5 @@
     <footer><P>&copy; andrea  & janis  & tichique</p></footer>
    <script type="text/javascript" src="../js/javascript.js"></script>
    
-</body>
-</html>
+
 <?php include '../inc/footer.php';
