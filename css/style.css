@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #121212; 
+    width: 100%;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF; 
+}
+
+header h1{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    width: 7em;
+    padding: 2% 2%;
+}
+
+header form{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-color: #1F1F1F; 
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B3B3B3; 
+}
+
+nav a{
+    text-decoration: none;
+    color: #B3B3B3; 
+    align-items: center;
+    display: block;
+    border: 1px solid white;
+    width: 98%;
+    margin: 1% auto;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5%;
+}
+
+main{
+    background-color: #1A1A1A; 
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #E0E0E0; 
+}
+
+article{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    transform: translate(1px, -1px) skew(-1deg, -1deg);
+
+}
+
+article img{
+
+    width: 30%;
+}
+
+div{
+    align-items: center;
+    padding: 2%;
+    width: 40%;
+}
+
+div img{
+    width: 30%;
+}
+
+aside{
+    background-color: #222222;
+    width: 25%;
+    color: #B3B3B3; 
+}
+
+footer{
+    background-color: #121212; 
+    width: 100%;
+    color: #FFFFFF; 
+}
+
+/* page inscription */
+
+form {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #2e2e2e;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* page liste */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #444;
+    font-size: 1em;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+thead td {
+    background-color: #333;
+    padding: 12px;
+    border-bottom: 2px solid #444;
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.icone {
+    width: 2em;
+}
+
+/* lightbox */
+
+#lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lightbox img{
+    height: 80%;
+}
+
+#lightbox img#close{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    height: 2em;
+}
