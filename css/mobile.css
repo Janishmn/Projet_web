@@ -1,0 +1,17 @@
+@media screen and (max-width:600px) {
+
+    header,
+    nav,
+    div,
+    main,
+    article,
+    section,
+    footer,
+    aside {
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+    }
+
+
+}
