@@ -14,3 +14,5 @@
 <aside>
 
 </aside>
+
+<?php include '../inc/footer.php'; ?>
