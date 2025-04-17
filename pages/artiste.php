@@ -15,7 +15,7 @@
     
     
  
-    <footer><P>&copy; andrea  & janis  & tichique</p></footer>
+    
    <script type="text/javascript" src="../js/javascript.js"></script>
    
 
