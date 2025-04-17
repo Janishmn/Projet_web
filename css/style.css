@@ -97,6 +97,13 @@ footer{
     background-color: #121212; 
     width: 100%;
     color: #FFFFFF; 
+    display: flex;
+    justify-content: space-between;
+   
+}
+footer p{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* page inscription */
@@ -183,7 +190,64 @@ tbody td {
 }
 
 /* lightbox */
+#description {
+    color: white;
+    margin-left: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+.galerie{
+    display: flex;  
+    justify-content: center;  
+    gap: 20px;  
+    flex-wrap: wrap;  
+    padding: 20px;
+    background-color: #1F1F1F;
+}
+.galerie img {
+    width: 200px;  
+    height: 200px;  
+    object-fit: cover;  
+    border-radius: 10px; 
+    
+    cursor: pointer;
+}
 
+#social-links {
+    display: flex;
+    justify-content: center;  
+    gap: 15px;  /* Espace entre les icônes */
+    margin-top: 20px;  
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+#insta-link {
+    display: inline-block;
+}
+
+
+#twitter-link {
+    display: inline-block;
+}
+#croix{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+ }
 #lightbox{
     position: fixed;
     top: 0;
