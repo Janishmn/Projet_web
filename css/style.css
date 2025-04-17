@@ -7,6 +7,7 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    background-color:  #222222;
 }
 
 header{
@@ -98,12 +99,7 @@ footer{
     width: 100%;
     color: #FFFFFF; 
     display: flex;
-    justify-content: space-between;
-   
-}
-footer p{
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
 /* page inscription */
@@ -205,8 +201,7 @@ tbody td {
     background-color: #1F1F1F;
 }
 .galerie img {
-    width: 200px;  
-    height: 200px;  
+    width: 45%;  
     object-fit: cover;  
     border-radius: 10px; 
     
@@ -247,7 +242,7 @@ tbody td {
     width: 30px;
     cursor: pointer;
     background-color: #FFFFFF;
- }
+}
 #lightbox{
     position: fixed;
     top: 0;
@@ -263,9 +258,11 @@ tbody td {
     height: 80%;
 }
 
-#lightbox img#close{
+#lightbox img#croix{
     position: absolute;
     top: 2%;
-    right: 2%;
+    right: 5%;
     height: 2em;
 }
+
+
