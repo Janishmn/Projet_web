@@ -1,31 +1,5 @@
 <?php include '../inc/header.php';?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>artiste</title>
-    <link rel="stylesheet" href="../css/style-artiste.css">
-</head>
-<body>
-    <header>
-        <h1>
-            <a href="../index.html">
-                <img src="../image/vinlye.png" alt="logo">
-            </a>
-            Unreleased music
-        </h1>
-        <form name="recherche.php" method="post">
-            <input type="search" id="recherche" name="recherche" placeholder="recherche..." maxlength="200">
-            <input type="image" src="../image/icons8-loupe-30.png" alt="">
-        </form>
-    </header>
-    <nav>
-        <a href="../index.html">acceuil</a>
-        <a href="artiste.html">artiste</a>
-        <a href="#">genre</a>
-        <a href="#">Contact</a>
-    </nav>
+
     <main>
        </div>
        <div class="galerie">
