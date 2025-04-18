@@ -1,17 +1,122 @@
-@media screen and (max-width:600px) {
+/* --- Responsive Mobile en pourcentages --- */
+@media (max-width: 768px) {
 
-    header,
-    nav,
-    div,
-    main,
-    article,
-    section,
-    footer,
-    aside {
-        width: 100%;
-        margin: 0%;
-        padding: 0;
+    body {
+        flex-direction: column;
+        align-items: center;
     }
 
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5% 2%;
+    }
 
+    header img {
+        width: 50%;
+        padding: 5% 0;
+    }
+
+    nav, aside {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        width: 45%;
+        margin: 2%;
+        font-size: 90%;
+        padding: 2%;
+    }
+
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article {
+        width: 90%;
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+
+    article img {
+        width: 50%;
+    }
+
+    div {
+        width: 90%;
+        padding: 5%;
+    }
+
+    div img {
+        width: 50%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 5%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+        margin: 10% auto;
+        padding: 5%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 90%;
+    }
+
+    input[type="submit"] {
+        width: 60%;
+        padding: 4%;
+    }
+
+    .galerie {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .galerie img {
+        width: 90%;
+    }
+
+    table {
+        font-size: 90%;
+        width: 95%;
+    }
+
+    #description {
+        margin: 5% auto;
+        width: 90%;
+    }
+
+    #lightbox img {
+        width: 90%;
+        height: auto;
+    }
+
+    #lightbox img#croix {
+        height: 10%;
+    }
+
+    #social-links {
+        flex-wrap: wrap;
+        gap: 5%;
+        margin-top: 5%;
+    }
+
+    .social-icon {
+        width: 20%;
+        height: auto;
+    }
 }
