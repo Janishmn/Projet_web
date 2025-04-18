@@ -1,4 +1,4 @@
-<?php define('BASE','/projet_web/'); ?>
+<?php define('BASE','/projet_web-main/'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
